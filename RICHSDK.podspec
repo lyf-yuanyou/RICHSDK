@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RICHSDK"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "项目基础依赖库"
 
   s.description  = <<-DESC
