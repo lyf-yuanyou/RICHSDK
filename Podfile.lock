@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (5.4.3)
+  - FDFullscreenPopGesture (1.1)
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - KeychainAccess (4.2.2)
+  - Kingfisher (6.3.1)
+  - MJRefresh (3.5.0)
+  - SnapKit (5.0.1)
+  - SwiftLint (0.43.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0)
+  - FDFullscreenPopGesture (= 1.1)
+  - HandyJSON (~> 5.0.2)
+  - IQKeyboardManagerSwift (~> 6.5.6)
+  - KeychainAccess (~> 4.2.2)
+  - Kingfisher (~> 6.0)
+  - MJRefresh (from `../YMRefresh`)
+  - SnapKit (~> 5.0.0)
+  - SwiftLint
+  - Then (~> 2.7.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FDFullscreenPopGesture
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - Kingfisher
+    - SnapKit
+    - SwiftLint
+    - Then
+
+EXTERNAL SOURCES:
+  MJRefresh:
+    :path: "../YMRefresh"
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  MJRefresh: 71c0a40f0d17669ac09a2f4d570304303bae9060
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 916faf79acebb35aa050ab10f42ae7f055991712
+
+COCOAPODS: 1.11.2

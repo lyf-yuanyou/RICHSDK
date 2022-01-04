@@ -1,0 +1,6 @@
+"richsdkdemo_hello"="Hello, RICHSDK Demo!";
+"com_tabBar_home"="Home";           // 首页
+"com_tabBar_benefits"="Benefits";   // 优惠
+"com_tabBar_customer"="Customer";   // 客服
+"com_tabBar_sponsor"="Sponsor";     // 赞助
+"com_tabBar_mine"="Me";             // 我的
