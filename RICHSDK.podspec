@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
-  s.name         = "YMSDK"
-  s.version      = "0.0.8"
-  s.summary      = "YM系app项目基础依赖库"
+  s.name         = "RICHSDK"
+  s.version      = "0.0.1"
+  s.summary      = "项目基础依赖库"
 
   s.description  = <<-DESC
-                     YM系app项目基础依赖库
+                     app项目基础依赖库
                    * 网络模块Api
                    * 路由模块PageRouter
                    * Toast
@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
                    * sqlite/iclould
                    DESC
 
-  s.homepage     = "http://git.yostata.xyz/ios/YMSDK"
+  s.homepage     = "https://github.com/lyf-yuanyou/RICHSDK"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.authors      = { "kok-app" => "j02358@kok.com" }
+  s.authors      = { "rich-app" => "65458@rich.com" }
 
   s.swift_version = "5.0"
 
@@ -29,15 +29,15 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "3.0"
   s.tvos.deployment_target = "11.0"
 
-  s.source       = { :git => "http://git.yostata.xyz/ios/YMSDK.git", :tag => s.version }
-  s.source_files = ["YMSDK/**/*.swift"]
+  s.source       = { :git => "https://github.com/lyf-yuanyou/RICHSDK.git", :tag => s.version }
+  s.source_files = ["RICHSDK/**/*.swift"]
   s.resources = [
-    "YMSDK/Resources/**/*.json",
-    "YMSDK/Resources/**/*.gif",
-    'YMSDK/Resources/*.xcassets',
-    'YMSDK/*.lproj',
-    'YMSDK/**/*.xib',
-    'YMSDK/**/*.storyboard'
+    "RICHSDK/Resources/**/*.json",
+    "RICHSDK/Resources/**/*.gif",
+    'RICHSDK/Resources/*.xcassets',
+    'RICHSDK/*.lproj',
+    'RICHSDK/**/*.xib',
+    'RICHSDK/**/*.storyboard'
   ]
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
